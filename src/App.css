@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: rgb(39, 39, 39);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  margin-top: 0;
+  color: rgb(114, 78, 172);
+}
+.btn {
+  transition: 0.7s ease;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: #9c3f3f;
+  width: 70px;
+}
+
+.btn:hover {
+  color: rgb(226, 141, 43);
+  box-shadow: 0 0 0 5px #9c3f3f;
+  transition: 0.7s ease;
+  background: none;
+  border-radius: 10px;
+}
